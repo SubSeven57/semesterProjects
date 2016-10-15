@@ -1,0 +1,63 @@
+body {
+    background-color: #F44336;
+    color: #FFF;
+    margin-left: 50px;
+}
+
+h1, h2 {
+    font-family: 'Roboto', 'Calibri', 'Helvetica', sans-serif;
+}
+
+section {
+    background-color: #D32F2F;
+    font-family: "Times New Roman", Times, serif;
+    padding: 5px;
+}
+
+header {
+    text-align: center;
+    padding: 1px;
+    color: #FFF;
+}
+
+blockquote {
+    quotes: "\201C""\201D""\2018""\2019";
+    border-left: 10px solid #FFCDD2;
+    margin: inherit;
+    padding: inherit; 
+}
+
+
+img {
+    border: 1px dotted #FFF;
+    max-height: 25%;
+    max-width: 25%;
+    margin: 10px;
+    margin: 0% 50% 0% 25%;
+     
+}
+
+
+a:link {
+    color: #448AFF;
+}
+
+a:visited {
+    color: #FFCDD2;
+}
+
+.headline::after {
+    content:' ';
+    display:block;
+    border: 0.5px solid #FFF;
+}
+
+#book, #image, #software {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#author {
+    float: right;
+    font-size: 10px;
+}

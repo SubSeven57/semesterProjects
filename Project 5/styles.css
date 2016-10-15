@@ -1,0 +1,55 @@
+body {
+    margin: 96px 120px 96px 120px; /* This is literally what the margins are for a default document in Word  */
+}
+
+header {
+    border-style: solid;
+	border-width: .5px;
+    border-color: black;
+    padding: 12px;
+    background-color: #9EC3E6;
+    text-align: center;
+    font-size: 19px;
+    font-family: "Times New Roman", serif;
+}
+
+div { /* Global Div Styles */
+    font-family: Arial, serif;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#floatOne {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+#floatTwo {
+    float: left;
+}
+
+#floatThree {
+    float: right;
+}
+
+footer {
+    clear: both;
+    padding-right: 100px;
+    background-color: #F7C99B;
+    position: relative;
+    width: 20%;
+}
+
+
+a {
+    color: red;
+    font-family: "Times New Roman";
+    font-style: italic;
+    font-size: 19px;
+}

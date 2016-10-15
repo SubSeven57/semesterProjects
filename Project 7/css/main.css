@@ -1,0 +1,40 @@
+body {
+    color: #212121;
+}
+
+.siteTitle {
+    text-align: center;
+    font-size: 100px;
+    padding: 10px;
+}
+
+.content {
+    color: azure;
+    margin: auto;
+    height: 250px;
+    max-width: 50%;
+    padding: 100px; 
+    text-align: center;
+    box-sizing: content-box;
+    background:rgba(0,0,0,0.70);
+}
+
+input, .button {
+    background-color: #4CAF50; 
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/*Specific Styles */
+
+#landingPage {
+    background-image: url("/img/placeholder.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}

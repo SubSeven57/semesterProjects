@@ -1,0 +1,49 @@
+body {
+    color: #FFF;
+    background-color: #303F9F;
+}
+
+table {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-collapse: collapse;
+	background-color: #FFF;
+}
+
+th {
+	color: #212121
+}
+
+td {
+	color: #757575;
+}
+
+td, th {
+	padding: 10px;
+	border: 1px solid black; /*Temporary*/
+}
+
+footer {
+    padding: 10px;
+	content: static;
+	background-color: #1976D2;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+#container {
+	border-color: #3F51B5;
+	background-color: #03A9F4;
+	padding: 10px;
+}
+
+.right {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+}
+
