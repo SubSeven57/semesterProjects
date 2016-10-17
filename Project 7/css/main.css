@@ -9,9 +9,9 @@ body {
 }
 
 .content {
-    color: azure;
     margin: auto;
     height: 250px;
+    color: azure;
     max-width: 50%;
     padding: 100px; 
     text-align: center;
