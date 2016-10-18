@@ -19,7 +19,7 @@ body {
     background:rgba(0,0,0,0.70);
 }
 
-input, .button {
+.button {
     background-color: #4CAF50; 
     border: none;
     border-radius: 12px;
