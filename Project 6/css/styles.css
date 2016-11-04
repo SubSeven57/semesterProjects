@@ -1,6 +1,8 @@
 body {
     color: #FFF;
     background-color: #303F9F;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 table {
@@ -20,7 +22,6 @@ td {
 
 td, th {
 	padding: 10px;
-	border: 1px solid black; /*Temporary*/
 }
 
 footer {
@@ -46,4 +47,3 @@ a:link {
 .left {
 	text-align: left;
 }
-
