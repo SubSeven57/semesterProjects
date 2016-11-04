@@ -1,8 +1,13 @@
 body {
     color: #FFF;
-    background-color: #303F9F;
-    padding-left: auto;
-    padding-right: auto;
+    background-color: #D32F2F;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', serif;
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
 }
 
 table {
@@ -17,7 +22,7 @@ th {
 }
 
 td {
-	color: #757575;
+	color: #000;
 }
 
 td, th {
@@ -25,9 +30,9 @@ td, th {
 }
 
 footer {
-    padding: 10px;
-	content: static;
-	background-color: #1976D2;
+  font-size: 12px;
+  padding: 10px;
+	background-color: #D32F2F;
 }
 
 a:link {
@@ -36,8 +41,14 @@ a:link {
 
 #container {
 	border-color: #3F51B5;
-	background-color: #03A9F4;
+	background-color: #F44336 ;
 	padding: 10px;
+}
+
+
+
+.tableBody {
+  background-color: #FFCDD2;
 }
 
 .right {
