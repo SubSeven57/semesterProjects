@@ -37,6 +37,11 @@ footer {
 
 a:link {
 	text-decoration: none;
+  color: #448AFF;
+}
+
+a:visited {
+  color: #757575;
 }
 
 #container {
@@ -45,7 +50,31 @@ a:link {
 	padding: 10px;
 }
 
+#bandPic {
+  width: 250px;
+  height: 250px;
+}
+#cover {
+  width: 100px;
+  height: 100px;
+}
 
+
+#album {
+    clear: left;
+}
+
+#about, #album {
+    overflow: auto;
+    padding: 10px;
+}
+
+.shape {
+    float:left;
+    margin: 1em 2em 1em 0;
+    border-radius: 25em;
+    shape-outside: circle(50%);
+}
 
 .tableBody {
   background-color: #FFCDD2;
