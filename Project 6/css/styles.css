@@ -57,6 +57,7 @@ a:visited {
 #cover {
   width: 100px;
   height: 100px;
+  float: right;
 }
 
 
@@ -71,9 +72,9 @@ a:visited {
 
 .shape {
     float:left;
-    margin: 1em 2em 1em 0;
+    margin: 10px;
     border-radius: 25em;
-    shape-outside: circle(50%);
+    shape-outside: square(50%);
 }
 
 .tableBody {
