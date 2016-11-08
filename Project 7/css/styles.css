@@ -1,0 +1,15 @@
+nav {
+  float: left;
+  width: 200px;
+  border-color: red;
+  border-style: dotted;
+}
+
+section {
+  margin-left: 250px;
+  overflow: auto;
+}
+
+#container {
+  padding: 10px;
+}
