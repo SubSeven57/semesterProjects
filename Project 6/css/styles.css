@@ -74,7 +74,12 @@ a:visited {
     float:left;
     margin: 10px;
     border-radius: 25em;
-    shape-outside: square(50%);
+    shape-outside: circle(50%);
+
+    /* TODO: Add a @supports query to account for the browser that still do not have support for
+    the shape CSS properties. Also, account for wider support.
+
+    */
 }
 
 .tableBody {
