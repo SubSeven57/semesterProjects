@@ -1,12 +1,12 @@
 nav {
   float: left;
-  width: 200px;
+  width: 25%;
   border-color: red;
   border-style: dotted;
 }
 
 section {
-  margin-left: 250px;
+  margin-left: 25%;
   overflow: auto;
 }
 
