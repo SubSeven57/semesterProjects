@@ -1,15 +1,50 @@
-nav {
-  float: left;
-  width: 25%;
-  border-color: red;
-  border-style: dotted;
+/* Global */
+
+body {
+  margin-bottom: 10%;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  clear: left;
+  color: #FFF;
+  background-color: #5D4037;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
 }
 
 section {
   margin-left: 25%;
+}
+
+a:link {
+  text-decoration: none;
+  color: #448AFF;
+}
+
+a:visited {
+  color: #FF5252
+}
+
+ul {
+  list-style: none;
+}
+
+/* Specifics */
+
+.content, #intro {
+  padding-left: 15px;
+}
+
+#pageContainer {
   overflow: auto;
 }
 
-#container {
-  padding: 10px;
+#globalMenu {
+  float: left;
+  width: 25%;
 }
