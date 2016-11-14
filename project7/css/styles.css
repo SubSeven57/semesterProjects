@@ -1,7 +1,14 @@
 /* Global */
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+h1 {
+  font-family: Roboto, sans-serif;
+}
+
 body {
   margin-bottom: 10%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -21,6 +28,10 @@ footer {
   width: 100%;
   background-color: #5D4037;
   position: fixed;
+}
+
+footer a:link {
+  color: white;
 }
 
 section {
