@@ -16,7 +16,7 @@ header {
   padding: 10px;
   clear: left;
   color: #FFF;
-  background-color: #5D4037;
+  background-color: #75441b; /*Not material design colour...*/
 }
 
 footer {
@@ -26,7 +26,8 @@ footer {
   bottom: 0;
   height: 15px;
   width: 100%;
-  background-color: #5D4037;
+  background-color: #75441b;
+  border: solid 1px 464547;
   position: fixed;
 }
 
