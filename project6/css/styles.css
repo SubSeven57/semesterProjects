@@ -54,12 +54,6 @@ a:visited {
   width: 250px;
   height: 250px;
 }
-#cover {
-  width: 100px;
-  height: 100px;
-  float: right;
-}
-
 
 #album {
     clear: left;
