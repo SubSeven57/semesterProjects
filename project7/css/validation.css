@@ -1,7 +1,6 @@
-input:invalid {
-    outline: 2px solid red;
+input:focus {
+  outline: none;
 }
-
-input:focus:invalid {
-    color: red;
+input {
+  transition: padding .25s;
 }
