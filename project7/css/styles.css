@@ -16,8 +16,7 @@ header {
   padding: 10px;
   clear: left;
   color: #FFF;
-  background-color: #75441b; /*Not material design colour...*/
-
+  background-color: #4F6A79;
 }
 
 footer {
@@ -27,12 +26,12 @@ footer {
   bottom: 0;
   height: 15px;
   width: 100%;
-  background-color: #75441b;
+  background-color: #4F6A79;
   border: solid 1px 464547;
   position: fixed;
 }
 
-footer a:link {
+footer a, footer a:visited {
   color: white;
 }
 
@@ -40,13 +39,13 @@ section {
   margin-left: 25%;
 }
 
-a:link {
+a, a:visited {
   text-decoration: none;
-  color: #448AFF;
+  color: #474A48;
 }
 
-a:visited {
-  color: #FF5252
+a:hover {
+  text-decoration: underline;
 }
 
 ul {
