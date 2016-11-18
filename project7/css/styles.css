@@ -2,12 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
 
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   font-family: Roboto, sans-serif;
 }
 
 body {
-  margin-bottom: 10%;
+  margin-bottom: 4em !important;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -16,23 +20,20 @@ header {
   padding: 10px;
   clear: left;
   color: #FFF;
-  background-color: #75441b; /*Not material design colour...*/
-
+  background-color: #4F6A79;
 }
 
 footer {
   text-align: center;
-  padding: 10px;
-  left: 0;
+  padding: 5px;
   bottom: 0;
-  height: 15px;
   width: 100%;
-  background-color: #75441b;
-  border: solid 1px 464547;
+  background-color: #4F6A79;
   position: fixed;
+  font-size: 0.75em;
 }
 
-footer a:link {
+footer a, footer a:visited {
   color: white;
 }
 
@@ -40,13 +41,13 @@ section {
   margin-left: 25%;
 }
 
-a:link {
+a, a:visited {
   text-decoration: none;
-  color: #448AFF;
+  color: #474A48;
 }
 
-a:visited {
-  color: #FF5252
+a:hover {
+  text-decoration: underline;
 }
 
 ul {
@@ -66,4 +67,28 @@ ul {
 #globalMenu {
   float: left;
   width: 25%;
+}
+
+.m0 {
+  margin: 0;
+}
+
+.w12 {
+  width: 100%;
+}
+
+.w6 {
+  width: 50%;
+}
+
+.w4 {
+  width: 33.333%;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
 }
