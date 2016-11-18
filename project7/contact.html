@@ -33,23 +33,21 @@
           <form action="validate.php" method="post" name="contactUs" >
             <fieldset>
               <legend>Your Information:</legend>
-              <input type="text" name="firstname" placeholder="First Name" required />
-              <input type="text" name="lastname" placeholder="Last Name" required />
-              <input type="email" name="email" placeholder="E-Mail" required />
-              <input type="tel" pattern="[0-9]{10}" name="tel" placeholder="Phone Number" required />
-              <input type="text" name="id" placeholder="Student ID" required />
-              <select name="major">
+              <input type="text" name="firstname" placeholder="First Name" class="w6 left" required />
+              <input type="text" name="lastname" placeholder="Last Name" class="w6 left" required />
+              <input type="email" class="w12 left" name="email" placeholder="E-Mail" required />
+              <input type="tel" pattern="[0-9]{10}" name="tel" placeholder="Phone Number" class="w4 left" required />
+              <input type="text" name="id" placeholder="Student ID" class="w4 left" required />
+              <select name="major" class="w4 left">
                 <option value="cs">Computer Science</option>
                 <option value="networking">Networking Systems</option>
                 <option value="netsec">Security and Forensics</option>
                 <option value="webdev">Web Development</option>
                 <option value="und">Undecided</option>
               </select>
-              <br/>
-              <br/>
             </fieldset>
-            <fieldset>
 
+            <fieldset>
               <legend>What kinds of activities would you like to do in the IT Club?</legend>
               <textarea name="comments" placeholder="Let us know!"></textarea>
             </fieldset>
