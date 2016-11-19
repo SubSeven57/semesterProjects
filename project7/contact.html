@@ -31,28 +31,36 @@
         </section>
         <section class="content">
           <form action="validate.php" method="post" name="contactUs" >
-            <fieldset>
+            <fieldset class="mb1">
               <legend>Your Information:</legend>
-              <input type="text" name="firstname" placeholder="First Name" class="w6 left" required />
-              <input type="text" name="lastname" placeholder="Last Name" class="w6 left" required />
-              <input type="email" class="w12 left" name="email" placeholder="E-Mail" required />
-              <input type="tel" pattern="[0-9]{10}" name="tel" placeholder="Phone Number" class="w4 left" required />
-              <input type="text" name="id" placeholder="Student ID" class="w4 left" required />
-              <select name="major" class="w4 left">
-                <option value="cs">Computer Science</option>
-                <option value="networking">Networking Systems</option>
-                <option value="netsec">Security and Forensics</option>
-                <option value="webdev">Web Development</option>
-                <option value="und">Undecided</option>
-              </select>
+              <div class="row">
+                <input type="text" name="firstname" placeholder="First Name" class="w6 left" required />
+                <input type="text" name="lastname" placeholder="Last Name" class="w6 left" required />
+              </div>
+              <div class="row">
+                <input type="email" class="w12" name="email" placeholder="E-Mail" required />
+              </div>
+              <div class="row">
+                <input type="tel" pattern="[0-9]{10}" name="tel" placeholder="Phone Number" class="w4 left" required />
+                <input type="text" name="id" placeholder="Student ID" class="w4 left" required />
+                <select name="major" class="w4 left">
+                  <option value="cs">Computer Science</option>
+                  <option value="networking">Networking Systems</option>
+                  <option value="netsec">Security and Forensics</option>
+                  <option value="webdev">Web Development</option>
+                  <option value="und">Undecided</option>
+                </select>
+              </div>
             </fieldset>
 
-            <fieldset>
+            <fieldset class="mb1">
               <legend>What kinds of activities would you like to do in the IT Club?</legend>
-              <textarea name="comments" placeholder="Let us know!"></textarea>
+              <textarea name="comments" class="w12" placeholder="Let us know!" rows="5"></textarea>
             </fieldset>
-            <input type="submit" value="Submit" />
-            <input type="reset">
+            <div class="row textcenter">
+              <input type="submit" value="Submit" class="btn mr1"/>
+              <input type="reset" class="btn ml1">
+            </div>
           </form>
         </section>
 
