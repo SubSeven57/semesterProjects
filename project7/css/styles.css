@@ -28,13 +28,13 @@ footer {
   padding: 5px;
   bottom: 0;
   width: 100%;
-  background-color: #4F6A79;
+  background-color: #75441b;
   position: fixed;
   font-size: 0.75em;
 }
 
 footer a, footer a:visited {
-  color: white;
+  color: #FFF;
 }
 
 section {
@@ -64,7 +64,18 @@ input, select, textarea {
   font-size: 12px;
 }
 
-/* Specifics */
+/* IDS */
+
+#pageContainer {
+  overflow: auto;
+}
+
+#globalMenu {
+  float: left;
+  width: 25%;
+}
+
+/* Classes */
 
 .content {
   min-width: 50%;
@@ -74,15 +85,6 @@ input, select, textarea {
 .content, #intro {
   padding-left: 15px;
   margin-right: 3em;
-}
-
-#pageContainer {
-  overflow: auto;
-}
-
-#globalMenu {
-  float: left;
-  width: 25%;
 }
 
 .btn {
