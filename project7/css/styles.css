@@ -20,7 +20,7 @@ header {
   padding: 10px;
   clear: left;
   color: #FFF;
-  background-color: #4F6A79;
+  background-color: #75441b; //Eww
 }
 
 footer {
@@ -67,8 +67,8 @@ input, select, textarea {
 /* Specifics */
 
 .content {
-  min-width: 625px;
-  max-width: 725px;
+  min-width: 50%;
+  max-width: 75%;
 }
 
 .content, #intro {
