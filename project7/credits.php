@@ -22,10 +22,9 @@ Hi there friend! It seems you are using Internet Explorer. Tell Windows ME that 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Credits</title>
 <link rel="stylesheet" property="stylesheet" href="css/styles.css" type="text/css" />
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
 </head>
-<body>
+<body class="m0">
   <div id="pageContainer">
     <header>
       <h1>Credits</h1>
