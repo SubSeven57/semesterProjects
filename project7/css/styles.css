@@ -88,8 +88,8 @@ input, select, textarea {
 }
 
 .btn {
-  background-color: #A7B4BC;
   padding: 0 2.5em;
+  border: 0px;
 }
 
 .m0 {

@@ -24,7 +24,7 @@
   </section>
 
     <footer>
-      <a href ="https://www.gnu.org/licenses/lgpl-3.0.en.html">Legal</a> | <a href="https://github.com/SubSeven57/semesterProjects">Github</a>
+      <a href ="https://www.gnu.org/licenses/lgpl-3.0.en.html">Legal</a> | <a href="https://github.com/SubSeven57/semesterProjects">Github</a> | <a href="credits.php">Credits</a>
     </footer>
 
   </body>
