@@ -31,7 +31,7 @@ li a, dd_btn {
 }
 
 li a:hover, dd:hover, dd_btn {
-  background: red; //Debug
+  background: #FF5252;
 }
 
 li.dd {
