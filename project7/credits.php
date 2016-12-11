@@ -1,5 +1,4 @@
 <!-- Yeah, it's exactly what it looks like.  -->
-
 <?php
 function ie_stopper()
 {
