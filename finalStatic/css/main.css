@@ -28,6 +28,30 @@ footer a:visited {
   color: #C5CAE9;
 }
 
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+}
+
+a:hover {
+  color: #303F9F;
+}
+
+a:visited {
+  color: #C5CAE9
+}
+
+
+
 /*Menu*/
 .mn_lst {
   list-style: none;
@@ -102,9 +126,61 @@ li.dd {
     font-size: .5em;
   }
 
+  .abt_img {
+    width: 20em;
+    height: 25em;
+    float: left;
+    margin: 0.25em 2em 1em 0;
+  }
+
 }
 
 /* End of Menu */
+
+/* About Page */
+
+.abt_img{
+    width: 20em;
+    height: 25em;
+    float: left;
+    margin: 0.25em 2em 1em 0;
+}
+
+@supports (shape-outside: circle()) {
+    .abt_img {
+        shape-outside: circle(50%);
+        border-radius: 10em;
+    }
+}
+
+/* End of About Page */
+
+
+/* Start of Gallery */
+.gallery img {
+  margin: 5px;
+  border: 1px solid #ccc;
+  left;
+  width: 180px;
+}
+
+.gallery img:hover {
+  border: 1px solid #000;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+@supports (shape-outside: circle()) {
+    .gallery img {
+        shape-outside: circle(20%);
+        border-radius: 5em;
+    }
+}
+
+/* End of Gallery */
+
 
 .site_title {
   text-align: center;
@@ -128,4 +204,35 @@ li.dd {
 
 .b_cont {
   padding: 2em;
+}
+
+.blrb {
+  background-color: #EBEBEB;
+  padding: 1em;
+}
+
+.big {
+  font-size: 20px;
+}
+
+.frame {
+  position: relative;
+}
+
+.frame img {
+  margin-top: 1em;
+  height: auto;
+  width: 75%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9),0 1em 10em 0 rgba(0, 0, 0, 0.19);
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+}
+
+.frame p {
+  position: absolute;
+text-align: center;
+width: 100%;
+bottom: 0px;
+color: #888;
 }
