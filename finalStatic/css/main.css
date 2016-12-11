@@ -9,6 +9,10 @@ h1 {
   font-family: Roboto, sans-serif;
 }
 
+hr {
+  clear: both;
+}
+
 /*Menu*/
 .mn_lst {
   list-style: none;
