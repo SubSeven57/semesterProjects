@@ -11,6 +11,21 @@ h1 {
 
 hr {
   clear: both;
+  color: #BDBDBD;
+}
+
+footer{
+  text-align: center;
+  font-size: 12px;
+  padding: .5em;
+}
+footer a:link {
+  text-decoration: none;
+  color: #FF5252;
+}
+
+footer a:visited {
+  color: #C5CAE9;
 }
 
 /*Menu*/
@@ -98,13 +113,17 @@ li.dd {
   border-style: solid;
   padding: 2em;
   position: static;
-  color: #303F9F; /** Colors subject to change **/
+  color: #303F9F;
   background-color: #3F51B5;
 }
 
 .site_title a {
   text-decoration: none;
   color: #FFF;
+}
+
+.container {
+  border-bottom: .05px solid #EBEBEB;
 }
 
 .b_cont {
