@@ -15,10 +15,10 @@ h1 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black; //Debug
+  background-color: #303F9F;
 }
 
-li {
+nav li {
   float: left;
 }
 
@@ -27,7 +27,7 @@ li a, dd_btn {
   display: inline-block;
   text-align: center;
   padding: 1em 1em;
-  color: white; //debug
+  color: #FFF;
 }
 
 li a:hover, dd:hover, dd_btn {
@@ -57,17 +57,50 @@ li.dd {
     display: block;
 }
 
+
+  /* Resposive Queries */
+@media only screen and (min-width: 100px) and (max-width: 450px) {
+  .mn_lst {
+    width:100%;
+    text-align: center !important;
+  }
+  .dd_item {
+    width:100%;
+    float:none;
+    border: #3F51B5 solid .05em;
+  }
+
+  .dd_item a {
+    font-size: 10px
+  }
+
+  .dd_content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .site_title a {
+    font-size: .5em;
+  }
+
+}
+
+/* End of Menu */
+
 .site_title {
   text-align: center;
+  text-decoration: overline underline;
+  font-size: 1em;
   border-style: solid;
   padding: 2em;
   position: static;
-  color:
+  color: #303F9F; /** Colors subject to change **/
+  background-color: #3F51B5;
 }
 
 .site_title a {
   text-decoration: none;
-  color:  #FF5252;
+  color: #FFF;
 }
 
 .b_cont {
