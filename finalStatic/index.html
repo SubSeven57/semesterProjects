@@ -1,6 +1,8 @@
 <!--
 HTML limits how you can handle templating for different pages, so the index page was the same skelleton I used
 for all the different pages in this project.
+
+No CSS reset sheet is being used since cross-browser compability is being taken into account at the CSS by ussing @supports tags.
 -->
 
 <!DOCTYPE html>
@@ -9,12 +11,13 @@ for all the different pages in this project.
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Placeholder</title>
-    <link rel="stylesheet" property="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="stylesheet" property="stylesheet" href="css/main.css?version=final" type="text/css" />
 </head>
 
 <body>
   <div class="container">
     <header class="site_title"><a href="index.html"><h1>SkyLane</h1></a></header>
+    <!-- Menu -->
     <nav class="nav">
       <ul class="mn_lst">
         <li class="dd_item"><a href="index.html">Home</a></li>
@@ -29,6 +32,7 @@ for all the different pages in this project.
         </li>
       </ul>
     </nav>
+    <!-- Container -->
     <section class="b_cont">
       <h2>Welcome to SkyLane!</h2>
       <p class="blrb big">Welcome to SkyLane. A website dedicate to bringing you the Chicago your hardly see. As of this moment, we are trying to populate the website with content. However, take a look around!
@@ -38,6 +42,7 @@ for all the different pages in this project.
       </p>
   </div>
   </section>
+  <!-- Footer -->
   <footer><a href="legal.html">Legal</a></footer>
 </body>
 </html>
